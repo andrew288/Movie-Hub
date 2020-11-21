@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "movie-hub"
+    }
+  },
+  "defaultProject": "movie-hub",
+  "cli": {
+    "analytics": "5f6e07e4-d0fb-46f7-9b4f-d9df037d77a7"
+  }
 }
