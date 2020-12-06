@@ -9,6 +9,13 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "es",
+        "locales": {
+          "en": "src/locale/messages.en.xlf",
+          "pt":"src/locate/messages.pt.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -56,6 +63,18 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "pg": {
+              "i18nFile": "src/locales/messages.pg.xlf",
+              "i18nLocale": "pg",
+              "i18nFormat": "xlf",
+              "aot": true
+            },
+            "en": {
+              "i18nFile": "src/locales/messages.en.xlf",
+              "i18nLocale": "en",
+              "i18nFormat": "xlf",
+              "aot": true
             }
           }
         },
@@ -67,6 +86,12 @@
           "configurations": {
             "production": {
               "browserTarget": "movie-hub:build:production"
+            },
+            "pg": {
+              "browserTarget": "movie-hub:build:pg"
+            },
+            "en": {
+              "browserTarget": "movie-hub:build:en"
             }
           }
         },

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
+        <source>Iniciar sesión</source>
+        <target>Iniciar sessão</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4d65fec828c0e84c3e6fa9576f41ba2bebd5544" datatype="html">
+        <source>Direccion de correo electronico</source>
+        <target>Endereço de email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/recovery/recovery/recovery.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19a13cc3f7422bf1d3c0cde6091e8f4d4581c6dd" datatype="html">
+        <source> Direccion de correo invalida </source>
+        <target> Endereço de email invalido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61f85c89dc729b72281d2e475e1c0bb48a95c5cd" datatype="html">
+        <source> Contraseña </source>
+        <target>Senha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9db7cd182a96d4c80cb3c0eaa855154b6e22b7d3" datatype="html">
+        <source> Recuperar contraseña </source>
+        <target> recuperar senha </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98a63739fafd67df293fc42c255611fc4fcd07e8" datatype="html">
+        <source> La contraseña es necesaria </source>
+        <target> Senha requerida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be2b859cf034ee6b18a679f9238d2433dd7f6b88" datatype="html">
+        <source>Recordar usuario</source>
+        <target>Lembre-se de usuário</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f18a945f5bbb39625b468ac77b7b83554bbe792" datatype="html">
+        <source> Iniciar sesión </source>
+        <target> Iniciar sessão </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81ab7b7702803b99e5c810d6c6008bcedd22679b" datatype="html">
+        <source>¿No tiene una cuenta? </source>
+        <target>Não tem conta? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="053e93005d506c75df94580150c705b3e1b4ab86" datatype="html">
+        <source>Registrase</source>
+        <target>inscrever-se</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login/login.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28c0f4e51cd46c99c0eb24ace953b810f9392691" datatype="html">
+        <source>Registrarse</source>
+        <target>Check-in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd2a11ebc737589080ed400dacc33a8c8c84728b" datatype="html">
+        <source>Nombre</source>
+        <target>Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="09c8f921c1995eae7da3aad69ad9091b018e8801" datatype="html">
+        <source> Ingresar nombre </source>
+        <target> Insira o nome </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d046bed6f4c07368d3566808c3c0571b447bb23" datatype="html">
+        <source> Direccion de correo invalida </source>
+        <target> Endereço de email invalido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f5c5e4cbccc814eae025a92d451a2e66e69ed81b" datatype="html">
+        <source> La contraseña es necesaria </source>
+        <target> Senha requerida </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4064ff241a868b3b7bcadf5d83f56fa2a2de6e10" datatype="html">
+        <source> Acepto los </source>
+        <target> Eu aceito os</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b762ddee1347c0f9cbde53165fd063d1063fc3c7" datatype="html">
+        <source>Terminos y condiciones </source>
+        <target> termos e Condições</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2a3766411ece28cfe46b133746084ec16652d572" datatype="html">
+        <source> Debe aceptar los terminos y condiciones </source>
+        <target> Você deve aceitar os Termos e Condições</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b95d503ba24dc9a27cc20c8346d9ca25f197672" datatype="html">
+        <source> Registrarse </source>
+        <target> Check-in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba1e1a4eadafd66b5454681033cdcf5d5d6db96a" datatype="html">
+        <source>¿Ya tiene una cuenta?</source>
+        <target> Já tem uma conta?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registrar/register/register.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9081c159da81e2e7aa19b685997393850d79d0d0" datatype="html">
+        <source>Recuperar contraseña</source>
+        <target>Recuperar senha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/recovery/recovery/recovery.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86351414f6c660cc3318d78b32b4cad7c0a8c22c" datatype="html">
+        <source> Email is invalid </source>
+        <target> E-mail inválido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/recovery/recovery/recovery.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7e86d96c08595714574856a1c0d22e4f6974eee" datatype="html">
+        <source> Al hacer clic en Restablecer contraseña, le enviaremos un enlace para restablecer la contraseña. </source>
+        <target>Ao clicar em Redefinir senha, enviaremos um link para redefinir sua senha.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/recovery/recovery/recovery.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0a2b1f905a814cad371c6583b4a7bf25c56b8f5" datatype="html">
+        <source> Recuperar contraseña </source>
+        <target> Recuperar senha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/recovery/recovery/recovery.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83afe594e89c88aaa6009e0258d77b12a0d2af63" datatype="html">
+        <source>Administrar</source>
+        <target>Gerir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/menu/menu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="047708832a9b64b29803fd2a8c4d0fc462d52471" datatype="html">
+        <source>Iniciar Sesion</source>
+        <target>Iniciar sessão</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b6bc65f3e9576dc6ac1493740124944c259a11f4" datatype="html">
+        <source>Buscar</source>
+        <target>Procurar por</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header/header.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a844b3f026fe446c6c556affa65ebe7a165865cc" datatype="html">
+        <source>Lista de Peliculas</source>
+        <target>Lista de Filmes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516c14282d68d937de378a457cc7e4b8b57530d4" datatype="html">
+        <source>Duracion</source>
+        <target>Duração</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="988f74651bbe85c46abfed799945074dd326f44c" datatype="html">
+        <source>Categoria</source>
+        <target>Categoria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="07464a612b0c044a93bd1f851ce3bda8a9898b66" datatype="html">
+        <source>Imagen</source>
+        <target>Imagem</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9922c762b7c572b56dfa01bece905c0e07e41fb6" datatype="html">
+        <source>Acciones</source>
+        <target>Ações</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="487026c62491c2b0c60c27c5f46a7ff3e2412932" datatype="html">
+        <source>3 horas</source>
+        <target>3 horas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e29a2f1fddb6986ab5aa170513004c303155581d" datatype="html">
+        <source>Serie</source>
+        <target>Série</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a0cfc0385b32ed5364b81482b84ab746c5b3b91" datatype="html">
+        <source>Ver </source>
+        <target>Vejo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef313aec57a87097aca09376247a357b08384378" datatype="html">
+        <source>Editar </source>
+        <target>Editar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b1ec5ef6115d4bb5bcb59b3bd975d89bf71309d" datatype="html">
+        <source> Eliminar </source>
+        <target> Remover </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2188fd09c30d1c495f098d29f1024cf515ed0f64" datatype="html">
+        <source>2 horas</source>
+        <target>2 horas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc260096a37ead93790968171e49c15e88d56564" datatype="html">
+        <source>Pelicula</source>
+        <target>Filme</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee152eb73c25de5222b578801667a5239464660d" datatype="html">
+        <source>1.5 horas</source>
+        <target>1.5 horas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/listar-movies/listar-movies.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b279e48998e85672c90c594b1ad54c8814d3565b" datatype="html">
+        <source>Crear Peliculas</source>
+        <target>Crie filmes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="973cbc368b59d69394f9a63a5ff3e583d5791a3f" datatype="html">
+        <source>Crear Item</source>
+        <target>Crie Item</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec3218bf95e5cee46456268e2b4ead8579642bbd" datatype="html">
+        <source>Titulo</source>
+        <target>Titulo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0e611b2bfac70d1af43295307e558cbf9f48e57" datatype="html">
+        <source>Descripción</source>
+        <target>Descrição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5691ff94c5d5ec27898c96d55dfa8cb6de3dadcb" datatype="html">
+        <source>Seleccionar video</source>
+        <target>Selecione o vídeo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd248ae9192ee35224dee1b446e678fd0419b9d3" datatype="html">
+        <source>Categoría</source>
+        <target>Categoria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4fda12df5a7911c1a60a4be780e67f185854ca4" datatype="html">
+        <source>Película</source>
+        <target>Filme</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="803eb4f20b7d27fb7d04262f31b56b93051c8180" datatype="html">
+        <source>Estreno</source>
+        <target>Pré estreia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="079b257be690a81f8a8d3ffc5e6b49428eb6ce37" datatype="html">
+        <source> Marque la casilla si este Item está en estreno. </source>
+        <target> Marque a caixa se este item estiver em lançamento. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99033067b7bad44a26e6028263548628d7c13c1c" datatype="html">
+        <source> Crear </source>
+        <target> Crio </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/crear-movies/crear-movies.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fadf4a4a1cc2d0ba162d9dad2d94e8725ad4181" datatype="html">
+        <source>Menú</source>
+        <target>Cardápio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/menu/menu.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9aff1f532c9b4b7b54da2f7221cdb8a406b600da" datatype="html">
+        <source>Crear</source>
+        <target>Crio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/menu/menu.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4675d20dc49131c8263ce25e60186646839e4b7" datatype="html">
+        <source>Configuracion</source>
+        <target>Configuração</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/menu/menu.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab85c728db7a6cf67e5b145ccf1a75ec6dd400f7" datatype="html">
+        <source>Pagina anterior</source>
+        <target>Página anterior</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="772de6cb4da302e671d00098275ba4abb5ae6d40" datatype="html">
+        <source>Pagina actual</source>
+        <target>Página real</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a41e2fb6bbbae3965c25499c92f58dbc71e12aa" datatype="html">
+        <source>Detalles</source>
+        <target>Detalhes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20de7814985da87fe6648630d9e14b67324ddd2b" datatype="html">
+        <source>Nombre:</source>
+        <target>Nome:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f46abee0bb72d74d44751d12e6a37015fbba4f87" datatype="html">
+        <source>Duracion:</source>
+        <target>Duração:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b434da0fbbb6fcc29d09ac20e1bc2b1e78af439" datatype="html">
+        <source>Categoria:</source>
+        <target>Categoria:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c0ca3ffbe693b4242820643599b72ff21aef50a" datatype="html">
+        <source>Imagen:</source>
+        <target>Imagem:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4add53031cdba14156b181b1de6ac3c9bd77e023" datatype="html">
+        <source>Descripcion:</source>
+        <target>Descrição:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f821fe66e67c81b0475450ecbdb69fc80d1acd26" datatype="html">
+        <source> En medio de un brote de peste, varios miembros destacados de la sociedad sevillana aparecen asesinados. Mateo, condenado por la Inquisición, debe resolver esta serie de crímenes diabólicos para lograr el perdón del Santo Oficio y así salvar su vida. Una investigación a vida o muerte en un entorno de represión pública y hedonismo privado; de misticismo y caos; de conventos relajados y burdeles reglamentados; de cárceles como escondite; de hospitales como tumbas; de traiciones y lealtades. </source>
+        <target>No meio de um surto de peste, vários membros proeminentes da sociedade sevilhana parecem assassinados. Mateo, condenado pela Inquisição, deve resolver esta série de crimes diabólicos para obter o perdão do Santo Ofício e, assim, salvar sua vida. Uma investigação de vida ou morte em um ambiente de repressão pública e hedonismo privado; de misticismo e caos; de conventos descontraídos e bordéis regulamentados; das prisões como esconderijo; de hospitais como túmulos; de traições e lealdades.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f8d359ded79d3a904010836bb72c4edd93794a7" datatype="html">
+        <source>Actualizado:</source>
+        <target>Atualizada:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed48a7cf387caeb62d47a01845588e4a5a49168b" datatype="html">
+        <source>Volver</source>
+        <target>Retorna</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/detail/detail.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c5c83714568e85bf273f444e03d163cc0f01c30" datatype="html">
+        <source>Actualizar</source>
+        <target>Atualizar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="437f30dac39f11653ce13b3bbee6d7c24e19c2d7" datatype="html">
+        <source>Nuevo nombre</source>
+        <target>Novo nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="051b4742d74cc9ed07bb9ee57053e89f5ef40ca0" datatype="html">
+        <source>0.00</source>
+        <target>0.00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b0df4f644607f7e3d34167bd93240a83064b333" datatype="html">
+        <source>Novela</source>
+        <target>Romance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04e1e35a6224490b098259dc4e478090f129d70c" datatype="html">
+        <source>Opciones</source>
+        <target>Escolhas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b3972c3e9485218508a95f7a4ce7758e3f09ced" datatype="html">
+        <source>Upload</source>
+        <target>Upload</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="210f427f37cd8cc26a32378900be918e9e5394c9" datatype="html">
+        <source>Imagen Actual:</source>
+        <target>Imagem atual:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35ad82bbaa7e8b24c1bdf03f3260422c5910a1fb" datatype="html">
+        <source>Aceptar</source>
+        <target>Aceitar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/components/update/update.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

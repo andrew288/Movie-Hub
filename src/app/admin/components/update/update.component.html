@@ -14,69 +14,69 @@
 
                     <nav aria-label="breadcrumb mb-3">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a routerLink="/admin" routerLinkActive="active">Pagina anterior</a></li>
-                            <li class="breadcrumb-item">Pagina actual</li>
+                            <li class="breadcrumb-item"><a i18n routerLink="/admin" routerLinkActive="active">Pagina anterior</a></li>
+                            <li i18n class="breadcrumb-item">Pagina actual</li>
                             <li class="breadcrumb-item active" aria-current="page"><a></a></li>
                         </ol>
                     </nav>
 
                     <div class="formulario" align="left">
 
-                        <h4>Actualizar</h4>
+                        <h4 i18n>Actualizar</h4>
 
                         <form method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label for="nombre" class="txt_negrita">Nombre</label>
+                                <label i18n for="nombre" class="txt_negrita">Nombre</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                      <span class="input-group-text" id="inputGroup-sizing-default">Nuevo nombre</span>
+                                      <span i18n class="input-group-text" id="inputGroup-sizing-default">Nuevo nombre</span>
                                     </div>
                                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="precio" class="txt_negrita">Duracion</label>
+                                <label i18n for="precio" class="txt_negrita">Duracion</label>
                                 <div class="input-group">
                                     <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                                     <div class="input-group-append">
-                                      <span class="input-group-text">0.00</span>
+                                      <span i18n class="input-group-text">0.00</span>
                                     </div>
                                   </div>
                             </div>
 
                             <div class="form-group">
-                                <label for="stock" class="txt_negrita">Categoria</label>
+                                <label i18n for="stock" class="txt_negrita">Categoria</label>
                                 <div class="input-group mb-3">
                                     <select class="custom-select" id="inputGroupSelect02">
-                                      <option selected>Serie</option>
-                                      <option value="1">Serie</option>
-                                      <option value="2">Pelicula</option>
-                                      <option value="3">Novela</option>
+                                      <option i18n selected>Serie</option>
+                                      <option i18n value="1">Serie</option>
+                                      <option i18n value="2">Pelicula</option>
+                                      <option i18n value="3">Novela</option>
                                     </select>
                                     <div class="input-group-append">
-                                      <label class="input-group-text" for="inputGroupSelect02">Opciones</label>
+                                      <label i18n class="input-group-text" for="inputGroupSelect02">Opciones</label>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="form-group">
-                                <label for="img" class="txt_negrita">Imagen</label>
+                                <label i18n for="img" class="txt_negrita">Imagen</label>
                                 <div class="input-group mb-3">
                                     <div class="custom-file">
                                       <input type="file" class="custom-file-input" id="inputGroupFile02">
                                       <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
                                     </div>
                                     <div class="input-group-append">
-                                      <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                      <span i18n class="input-group-text" id="inputGroupFileAddon02">Upload</span>
                                     </div>
                                   </div>
-                                <p class="txt_negrita">Imagen Actual:</p>
+                                <p i18n class="txt_negrita">Imagen Actual:</p>
                                 <img src="../../../../assets/img/fearthewalkingdead.jpg" class="img-fluid"
                                     alt="">
 
                             </div>
-                            <button class="btn btn-primary">Aceptar</button>
-                            <a routerLink="/admin" routerLinkActive="active" type="submit" class="btn btn-primary">Volver</a>
+                            <button i18n class="btn btn-primary">Aceptar</button>
+                            <a i18n routerLink="/admin" routerLinkActive="active" type="submit" class="btn btn-primary">Volver</a>
                         </form>
 
                     </div>
