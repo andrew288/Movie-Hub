@@ -4,6 +4,12 @@ import { ListarMoviesComponent } from './components/listar-movies/listar-movies.
 import { CrearMoviesComponent } from './components/crear-movies/crear-movies.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { UpdateComponent } from './components/update/update.component';
+import { LayoutAnalisisComponent } from './components/layout-analisis/layout-analisis.component';
+import { PeliculasPopularesComponent } from './components/analisis/peliculas-populares/peliculas-populares.component';
+import { SeriesPopularesComponent } from './components/analisis/series-populares/series-populares.component';
+import { PeorContenidoComponent } from './components/analisis/peor-contenido/peor-contenido.component';
+import { SubscripcionesComponent } from './components/analisis/subscripciones/subscripciones.component';
+import { GananciasComponent } from './components/analisis/ganancias/ganancias.component';
 const routes: Routes = [
   {
       path: '',
@@ -20,6 +26,32 @@ const routes: Routes = [
   {
     path: 'update',
     component: UpdateComponent,
+  },
+  {
+    path: 'analisis',
+    component: LayoutAnalisisComponent,
+    children: [
+      {
+        path: '',
+        component: PeliculasPopularesComponent,
+      },
+      {
+        path: 'series',
+        component: SeriesPopularesComponent,
+      },
+      {
+        path: 'peorContenido',
+        component: PeorContenidoComponent,
+      },
+      {
+        path: 'subscripciones',
+        component: SubscripcionesComponent,
+      },
+      {
+        path: 'ganancias',
+        component: GananciasComponent,
+      }
+    ]
   }
 ];
 

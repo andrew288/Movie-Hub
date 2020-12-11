@@ -1,0 +1,32 @@
+<main role="main">
+    <div class="container text-center mt-5">
+        <div class="row mb-12">
+            <div class="card col-md-2">
+                <app-menu></app-menu>
+            </div>
+            <div class="col-md-10">
+                <ul class="nav justify-content-center nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/admin/analisis">Peliculas más vistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/admin/analisis/series" routerLinkActive="active">Series más vistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/admin/analisis/peorContenido" routerLinkActive="active" tabindex="-1">Gastos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/admin/analisis/subscripciones" routerLinkActive="active">Subscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/admin/analisis/ganancias" routerLinkActive="active" tabindex="-1" >Ganancias</a>
+                    </li>
+                </ul>
+                <br>
+                <div>
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
