@@ -4,11 +4,21 @@ import { LoginComponent } from './login/login/login.component';
 import { RegisterComponent } from './registrar/register/register.component';
 import { LayoutComponent } from './layout/layout/layout.component';
 import { RecoveryComponent } from './recovery/recovery/recovery.component';
+import { HomeComponent } from './home/home.component';
+import { DetallesMovieComponent } from './detalles-movie/detalles-movie.component';
 const routes: Routes = [
   {
     path: '',
     component: LayoutComponent,
     children: [
+      {
+        path: '',
+        component: HomeComponent,
+      },
+      {
+        path: 'home',
+        component: HomeComponent,
+      },
       {
         path: 'login',
         component: LoginComponent,
@@ -24,7 +34,11 @@ const routes: Routes = [
       {
         path: 'recovery',
         component: RecoveryComponent,
-      }
+      },
+      {
+        path: 'detalles',
+        component: DetallesMovieComponent,
+      },
     ]
   },
 ];

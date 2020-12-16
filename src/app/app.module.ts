@@ -8,6 +8,8 @@ import { SharedModule} from './shared/shared.module';
 import { LayoutComponent } from './layout/layout/layout.component';
 import { RegisterComponent } from './registrar/register/register.component';
 import { RecoveryComponent } from './recovery/recovery/recovery.component';
+import { HomeComponent } from './home/home.component';
+import { DetallesMovieComponent } from './detalles-movie/detalles-movie.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { RecoveryComponent } from './recovery/recovery/recovery.component';
     LayoutComponent,
     RegisterComponent,
     RecoveryComponent,
+    HomeComponent,
+    DetallesMovieComponent,
   ],
   imports: [
     BrowserModule,

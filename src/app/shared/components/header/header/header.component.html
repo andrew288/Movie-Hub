@@ -1,36 +1,42 @@
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="../../../../../assets/img/icono.png" width="50"
-                    class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
-                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExample07">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a routerLink="" routerLinkActive="active" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a i18n routerLink="/admin" routerLinkActive="active" class="nav-link">Administrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a i18n routerLink="/login" routerLinkActive="active" class="nav-link">Iniciar Sesion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a i18n routerLink="/register" routerLinkActive="active" class="nav-link">Registrarse</a>
-                    </li>
-                </ul>
-                <form name="bencc" method="get" action="http://www.google.com/search" id="bencc"
-                    class="form-inline mt-2 mt-md-0">
-                    <input type="hidden" name="domains" value="blog.nubecolectiva.com">
-                    <input type="hidden" name="sitesearch" value="blog.nubecolectiva.com">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Buscar...">
-                    <button i18n class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+<header id="masthead" class="site-header header-default  light">
+    <div class="container">
+        <div class="amy-inner">
+            <div class="amy-left">
+                <div id="amy-site-logo">
+                    <a routerLink="home/" routerLinkActive="active">
+                        <img class="amy-logo amy-logo1x"
+                            src="../../../../../assets/img/icono.png"
+                            alt="Movie-Hub" width="50"/>
+                    </a>
+                </div>
+            </div>
+            <div class="amy-right">
+                <nav id="amy-site-nav" class="amy-site-navigation amy-primary-navigation">
+                    <div class="menu-mainnav-container">
+                        <ul id="menu-mainnav" class="nav-menu">
+                            <li id="menu-item-240"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-75 current_page_item menu-item-has-children menu-item-240">
+                                <a routerLink="/home" routerLinkActive="active"
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li id="menu-item-241"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-241">
+                                <a routerLink="/login" routerLinkActive="active">Iniciar Sesion</a>
+                            </li>
+                            <li id="menu-item-251"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-251">
+                                <a routerLink="/register" routerLinkActive="active">Registrarse</a>
+                            </li>
+                            <li id="menu-item-246"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-246">
+                                <a routerLink="/admin" routerLinkActive="active">Administrar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="amy-menu-toggle"><a><span></span></a></div>
             </div>
         </div>
-    </nav>
+    </div>
+    <div id="amy-site-header-shadow"></div>
 </header>
