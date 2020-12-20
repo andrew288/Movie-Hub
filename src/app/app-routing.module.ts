@@ -6,6 +6,7 @@ import { LayoutComponent } from './layout/layout/layout.component';
 import { RecoveryComponent } from './recovery/recovery/recovery.component';
 import { HomeComponent } from './home/home.component';
 import { DetallesMovieComponent } from './detalles-movie/detalles-movie.component';
+import { MapaSitioComponent } from "./mapa-sitio/mapa-sitio.component";
 const routes: Routes = [
   {
     path: '',
@@ -38,6 +39,10 @@ const routes: Routes = [
       {
         path: 'detalles',
         component: DetallesMovieComponent,
+      },
+      {
+        path: 'mapasitio',
+        component: MapaSitioComponent,
       },
     ]
   },

@@ -2,73 +2,102 @@
 
     <div class="container text-center mt-5">
 
-        <div class="row">
-            <div class="col-md-12">
-                <h5 i18n>Crear Peliculas</h5>
-            </div>
-        </div>
+        <div class="row mb-5">
 
-        <div class="row mb-12">
-            
             <div class="card col-md-2">
                 <app-menu></app-menu>  
             </div>
 
             <div class="col-md-10">
-                <section class="h-100">
-                    <div class="container h-100">
-                            <div class="card-wr">
-                                <div class="card fat">
-                                    <div class="card-body">
-                                        <h4 i18n class="card-title">Crear Item</h4>
-                                        <form>
-                                            <div class="form-group row">
-                                                <label i18n for="formGroupExampleInput" class="col-sm-4 col-form-label">Titulo</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="formGroupExampleInput"
-                                                        placeholder="Titulo">
-                                                </div>
-                                            </div>
 
-                                            <div class="form-group">
-                                                <label i18n for="exampleFormControlTextarea1">Descripción</label>
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            </div>
+                <div class="table-responsive">
 
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="customFileLang" lang="es">
-                                                <label i18n class="custom-file-label" for="customFileLang">Seleccionar video</label>
-                                            </div>
-                                            <div class="form-group">
-                                                <label i18n for="exampleFormControlSelect1">Categoría</label>
-                                                <select class="form-control" id="exampleFormControlSelect1">
-                                                    <option i18n>Película</option>
-                                                    <option i18n>Serie</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group row">
-                                                <div class="col-sm-2" i18n>Estreno</div>
-                                                <div class="col-sm-10">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                                        <label i18n class="form-check-label" for="gridCheck1">
-                                                            Marque la casilla si este Item está en estreno.
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-0">
-                                                <button i18n type="submit" class="btn btn-primary btn-block">
-                                                    Crear
-                                                </button>
-                                            </div>
-                                        </form>
+                    <div class="formulario" align="left">
+
+                        <h4 i18n >{{"CREATE" | translate}}</h4>
+
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label i18n for="nombre" class="txt_negrita">{{"TITLE" | translate}}<span
+                                    class="required">*</span></label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span  class="input-group-text" id="inputGroup-sizing-default">{{"NAME" | translate}}</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  for="precio" class="txt_negrita">{{"DURATION" | translate}}<span
+                                    class="required">*</span></label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                                    <div class="input-group-append">
+                                      <span  class="input-group-text">0.00</span>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label  for="stock" class="txt_negrita">{{"CATEGORY" | translate}}<span
+                                    class="required">*</span></label>
+                                <div class="input-group mb-3">
+                                    <select class="custom-select" id="inputGroupSelect02">
+                                      <option  selected>{{"SERIE" | translate}}</option>
+                                      <option  value="2">{{"MOVIE" | translate}}</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                      <label  class="input-group-text" for="inputGroupSelect02">{{"OPTIONS" | translate}}</label>
                                     </div>
                                 </div>
-                            </div> 
                             </div>
-                   </section>
+                            
+                            <div class="form-group">
+                                <label  for="img" class="txt_negrita">{{"IMAGE" | translate}}</label>
+                                <div class="input-group mb-3">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">{{"INFOMEDIA" | translate}}</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                      <span  class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label  for="img" class="txt_negrita">{{"VIDEO" | translate}}<span
+                                    class="required">*</span></label>
+                                <div class="input-group mb-3">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">{{"INFOMEDIA" | translate}}</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                      <span  class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="form-group">
+                                <label  for="exampleFormControlTextarea1">{{"DESCRIPTION" | translate}}</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8">Synopsis ...</textarea>
+                            </div>
+                            <div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-dark" >{{"ACCEPTB" | translate}}</button>
+                                </div>
+                                <div class="col-md-0">
+                                    <button type="button" class="btn btn-danger"  routerLink="/admin" routerLinkActive="active" type="submit">{{"RETURNB" | translate}}</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
     </div>
 </main>

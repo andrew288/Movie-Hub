@@ -14,69 +14,91 @@
 
                     <nav aria-label="breadcrumb mb-3">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a i18n routerLink="/admin" routerLinkActive="active">Pagina anterior</a></li>
-                            <li i18n class="breadcrumb-item">Pagina actual</li>
+                            <li class="breadcrumb-item"><a  routerLink="/admin" routerLinkActive="active">{{"LIST" | translate}}</a></li>
+                            <li  class="breadcrumb-item">La Casa de Papel</li>
                             <li class="breadcrumb-item active" aria-current="page"><a></a></li>
                         </ol>
                     </nav>
 
                     <div class="formulario" align="left">
 
-                        <h4 i18n>Actualizar</h4>
+                        <h4 >{{"UPDATE" | translate}}</h4>
 
                         <form method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label i18n for="nombre" class="txt_negrita">Nombre</label>
+                                <label  for="nombre" class="txt_negrita">{{"NAME" | translate}}<span
+                                    class="required">*</span></label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                      <span i18n class="input-group-text" id="inputGroup-sizing-default">Nuevo nombre</span>
+                                      <span  class="input-group-text" id="inputGroup-sizing-default">{{"NEWNAME" | translate}}</span>
                                     </div>
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                    <input placeholder="La Casa de Papel" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label i18n for="precio" class="txt_negrita">Duracion</label>
+                                <label  for="precio" class="txt_negrita">{{"DURATION" | translate}}<span
+                                    class="required">*</span></label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                                    <input placeholder="2:30:05" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                                     <div class="input-group-append">
-                                      <span i18n class="input-group-text">0.00</span>
+                                      <span  class="input-group-text">0.00</span>
                                     </div>
                                   </div>
                             </div>
 
                             <div class="form-group">
-                                <label i18n for="stock" class="txt_negrita">Categoria</label>
+                                <label  for="stock" class="txt_negrita">{{"CATEGORY" | translate}}<span
+                                    class="required">*</span></label>
                                 <div class="input-group mb-3">
                                     <select class="custom-select" id="inputGroupSelect02">
-                                      <option i18n selected>Serie</option>
-                                      <option i18n value="1">Serie</option>
-                                      <option i18n value="2">Pelicula</option>
-                                      <option i18n value="3">Novela</option>
+                                      <option  selected>{{"SERIE" | translate}}</option>
+                                      <option  value="2">{{"MOVIE" | translate}}</option>
                                     </select>
                                     <div class="input-group-append">
-                                      <label i18n class="input-group-text" for="inputGroupSelect02">Opciones</label>
+                                      <label  class="input-group-text" for="inputGroupSelect02">{{"OPTIONS" | translate}}</label>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="form-group">
-                                <label i18n for="img" class="txt_negrita">Imagen</label>
+                                <label  for="img" class="txt_negrita">{{"IMAGE" | translate}}</label>
                                 <div class="input-group mb-3">
                                     <div class="custom-file">
                                       <input type="file" class="custom-file-input" id="inputGroupFile02">
-                                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">{{"NEWIMAGE" | translate}}</label>
                                     </div>
                                     <div class="input-group-append">
-                                      <span i18n class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                      <span  class="input-group-text" id="inputGroupFileAddon02">Upload</span>
                                     </div>
                                   </div>
-                                <p i18n class="txt_negrita">Imagen Actual:</p>
-                                <img src="../../../../assets/img/fearthewalkingdead.jpg" class="img-fluid"
-                                    alt="">
-
                             </div>
-                            <button i18n class="btn btn-primary">Aceptar</button>
-                            <a i18n routerLink="/admin" routerLinkActive="active" type="submit" class="btn btn-primary">Volver</a>
+
+                            <div class="form-group">
+                                <label  for="img" class="txt_negrita">{{"VIDEO" | translate}}<span
+                                    class="required">*</span></label>
+                                <div class="input-group mb-3">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">{{"NEWVIDEO" | translate}}</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                      <span  class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label  for="exampleFormControlTextarea1">{{"DESCRIPTION" | translate}}</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8">Synopsis</textarea>
+                            </div>
+                            <div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-dark" >{{"ACCEPTB" | translate}}</button>
+                                </div>
+                                <div class="col-md-0">
+                                    <button type="button" class="btn btn-danger"  routerLink="/admin" routerLinkActive="active" type="submit">{{"RETURNB" | translate}}</button>
+                                </div>
+                            </div>
                         </form>
 
                     </div>

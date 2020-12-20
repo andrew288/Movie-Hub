@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header/header.component';
 
 import { RouterModule} from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     CommonModule,
     RouterModule,
+    TranslateModule,
   ],
   exports: [
     HeaderComponent,

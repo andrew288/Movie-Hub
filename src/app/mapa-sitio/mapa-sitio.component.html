@@ -1,0 +1,57 @@
+<div class="row justify-content-center align-items-center minh-100">
+    <h2 class="title-heading">
+        <span style="">{{"MAP" | translate}}</span>
+        <span class="title-highlight" style="color: #fe7900;">{{"SITE" | translate}}</span>
+    </h2>
+</div>
+<div class="row justify-content-center align-items-center minh-100">
+    <h2 class="title-heading">
+        <span style="">Movie</span>
+        <span class="title-highlight" style="color: #fe7900;">Hub</span>
+    </h2>
+    <div class="contenedor-arbol">
+        <ul>
+            
+                <li> <a routerLink="/" routerLinkActive="active">Home</a>
+                    <ul>
+                        <li><a routerLink="/detalles" routerLinkActive="active">{{"MOVIEVIEW" | translate}}</a></li>
+                    </ul>
+                </li>
+                <li> <a href="http://localhost:4200/login">{{"LOGIN" | translate}}</a>
+                    <ul>
+                        <li><a href="http://localhost:4200/recovery">{{"RECOVERY" | translate}}</a></li>
+                        <li><a routerLink="/register" routerLinkActive="active">{{"REGISTER" | translate}}</a></li>
+                    </ul>
+                </li>
+                <li> <a routerLink="/register" routerLinkActive="active">{{"REGISTER" | translate}}</a>
+                    <ul>
+                        <li><a href="http://localhost:4200/login">{{"LOGIN" | translate}}</a></li>
+                    </ul>
+                </li>
+                <li> <a routerLink="/admin" routerLinkActive="active">{{"MANAGE" | translate}}</a>
+                    <ul>
+                        <li><a routerLink="/admin/create" routerLinkActive="active">{{"CREATE" | translate}}</a></li>
+                        <li><a routerLink="/admin" routerLinkActive="active">{{"MANAGE" | translate}}</a>
+                            <ul>
+                                <li><a routerLink="/admin" routerLinkActive="active">{{"LIST" | translate}}</a></li>
+                                <li><a routerLink="/admin/detail" routerLinkActive="active">{{"SEEDETAILS" | translate}}</a></li>
+                                <li><a routerLink="/admin/update" routerLinkActive="active">{{"EDIT" | translate}}</a></li>
+                            </ul>
+                        </li>
+                        <li><a routerLink="/admin/analisis" routerLinkActive="active">{{"ANALYSIS" | translate}}</a>
+                            <ul>
+                                <li><a routerLink="/admin/analisis" routerLinkActive="active">{{"MOSTMOVIES" | translate}}</a></li>
+                                <li><a routerLink="/admin/analisis/series" routerLinkActive="active">{{"MOSTSERIES" | translate}}</a></li>
+                                <li><a routerLink="/admin/analisis/gastos" routerLinkActive="active">{{"EXPENSES" | translate}}</a></li>
+                                <li><a routerLink="/admin/analisis/subscripciones" routerLinkActive="active">{{"SUBSCRIPTION" | translate}}</a></li>
+                                <li><a routerLink="/admin/analisis/ganancias" routerLinkActive="active">{{"PROFITS" | translate}}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li> <a routerLink="/mapasitio" routerLinkActive="active">{{"SITEMAP" | translate}}</a>  </li>
+            </ul>
+    </div>
+</div>
+<br>
+<br>

@@ -8,22 +8,26 @@
 					</div>
 					<div class="card fat">
 						<div class="card-body">
-							<h4 i18n class="card-title">Recuperar contraseña</h4>
+							<h4  class="card-title">{{"RECOVERY" | translate}}</h4>
 							<form method="POST" class="my-login-validation" novalidate="">
 								<div class="form-group">
-									<label i18n for="email">Direccion de correo electronico</label>
+									<label  for="email">{{"EMAIL" | translate}}<span
+										class="required">*</span></label>
 									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
-									<div i18n class="invalid-feedback">
+									<div  class="invalid-feedback">
 										Email is invalid
 									</div>
-									<div i18n class="form-text text-muted">
-										Al hacer clic en Restablecer contraseña, le enviaremos un enlace para restablecer la contraseña.
+									<div  class="form-text text-muted">
+										{{"INFORECOVERY" | translate}}
 									</div>
 								</div>
 
+								<div class="g-recaptcha" data-sitekey="6LdOzAsaAAAAAJxBw4XCgBRKu4FODgwLYaeyi9Cg"></div>
+								<br>
+
 								<div class="form-group m-0">
-									<button i18n type="submit" class="btn btn-primary btn-block">
-										Recuperar contraseña
+									<button  type="submit" class="btn btn-primary btn-block">
+										{{"RECOVERY" | translate}}
 									</button>
 								</div>
 							</form>

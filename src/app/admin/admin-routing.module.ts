@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ListarMoviesComponent } from './components/listar-movies/listar-movies.component';
 import { CrearMoviesComponent } from './components/crear-movies/crear-movies.component';
@@ -40,7 +40,7 @@ const routes: Routes = [
         component: SeriesPopularesComponent,
       },
       {
-        path: 'peorContenido',
+        path: 'gastos',
         component: PeorContenidoComponent,
       },
       {

@@ -8,7 +8,6 @@ import { MenuComponent } from './components/menu/menu.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { UpdateComponent } from './components/update/update.component';
 import { FusionChartsModule } from 'angular-fusioncharts';
-
 // Load FusionCharts
 import * as FusionCharts from 'fusioncharts';
 // Load Charts module
@@ -29,11 +28,11 @@ import { PeorContenidoComponent } from './components/analisis/peor-contenido/peo
 import { SubscripcionesComponent } from './components/analisis/subscripciones/subscripciones.component';
 import { GananciasComponent } from './components/analisis/ganancias/ganancias.component';
 import { GraficoBalaComponent } from './components/analisis/grafico-bala/grafico-bala.component';
+import { EliminarComponent } from './components/eliminar/eliminar.component';
 
 // Add dependencies to FusionChartsModule
-FusionChartsModule.fcRoot(FusionCharts, Charts,Maps, World, Widgets, FusionTheme)
-
-
+FusionChartsModule.fcRoot(FusionCharts, Charts,Maps, World, Widgets, FusionTheme);
+import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   declarations: [
     ListarMoviesComponent,
@@ -48,11 +47,13 @@ FusionChartsModule.fcRoot(FusionCharts, Charts,Maps, World, Widgets, FusionTheme
     SubscripcionesComponent,
     GananciasComponent,
     GraficoBalaComponent,
+    EliminarComponent,
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     FusionChartsModule,
+    TranslateModule,
   ]
 })
 export class AdminModule { }
